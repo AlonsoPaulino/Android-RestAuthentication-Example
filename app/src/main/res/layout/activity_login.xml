@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/login_form_horizontal_margin"
+        android:paddingStart="@dimen/login_form_horizontal_margin"
+        android:paddingRight="@dimen/login_form_horizontal_margin"
+        android:paddingEnd="@dimen/login_form_horizontal_margin">
+
+        <EditText
+            android:id="@+id/username_field"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_field_height"
+            android:inputType="text"
+            android:hint="@string/username_hint"
+            android:background="@drawable/rounded_field_background"
+            android:drawableStart="@drawable/ic_action_action_account_box"
+            android:padding="@dimen/login_field_padding"
+            android:layout_marginBottom="@dimen/login_field_vertical_margin_short"/>
+
+        <EditText
+            android:id="@+id/password_field"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_field_height"
+            android:inputType="textPassword"
+            android:hint="@string/password_hint"
+            android:padding="@dimen/login_field_padding"
+            android:background="@drawable/rounded_field_background"
+            android:drawableStart="@drawable/ic_action_action_https"
+            android:layout_marginBottom="@dimen/login_field_vertical_margin_length"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_button_height"
+            android:text="@string/login_button_text"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RestAuthentication</string>
+
+    <!-- DIALOG -->
+    <string name="dialog_positive_button">Aceptar</string>
+
+    <!-- LOGIN -->
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button_text">Ingresar</string>
+    <string name="logout_button_text">Cerrar Sesión</string>
+
+    <!-- ERROR -->
+    <string name="error_default">Se ha producido un error inesperado. Por favor inténtelo más tarde.</string>
+    <string name="error_form">Por favor, complete el formulario.</string>
+
+    <!-- INTRO -->
+    <string name="intro_text">This project was created using Butterknife + Saripaar + Retrofit :D! Also
+    I used MVP for the project architecture! :D! </string>
+</resources>
